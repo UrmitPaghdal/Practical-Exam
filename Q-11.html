@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q==11</title>
+</head>
+
+<body>
+    <script>
+        var a = (parseInt(prompt("Enter the A number :")));
+        var b = (parseInt(prompt("Enter the B number :")));
+        var c = (parseInt(prompt("Enter the C number :")));
+        var d = (parseInt(prompt("Enter the D number :")));
+
+        if (a > b) {
+            if (a > c) {
+                if (a > d) {
+                    console.log("A number is greter");
+                }
+                else {
+                    console.log("D number is greter");
+                }
+            }
+            else {
+                console.log("C number is greter");
+            }
+        }
+        else {
+            if (b > c) {
+                if (b > d) {
+                    console.log("B number is greter");
+                } else {
+                    console.log("D number is greter");
+                }
+            }
+            else {
+                if (c > d) {
+                    console.log("C number is greter");
+                }
+                else {
+                    console.log("D number is greter");
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
